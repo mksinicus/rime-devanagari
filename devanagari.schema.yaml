@@ -21,7 +21,7 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 拉丁, 西文 ]
+    states: [ सं, 西文 ]
 
 engine:
   processors:
