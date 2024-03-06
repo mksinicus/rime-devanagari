@@ -43,29 +43,32 @@ menu:
 speller:
   alphabet: 'abcdefghijklmnopqrstuvxyz.,:;''`-0123456789'
   delimiter: ' '
+  algebra:
+  - derive/^([^aeiouAEIOU])a$/$1/
 
 translator:
   dictionary: devanagari
   enable_user_dict: false
   preedit_format:
     # 直接反映 IAST
-    - 'xform aa ā'
-    - 'xform ii ī'
-    - 'xform uu ū'
-    - 'xform r\.\. ṝ'
-    - 'xform r\. ṛ'
-    - 'xform l\.\. ḹ'
-    - 'xform l\. ḷ'
-    - 'xform o\. ŏ'
-    - 'xform oo ō'
-    - 'xform nj ñ'
-    - 'xform ng ṅ'
-    - 'xform t\. ṭ'
-    - 'xform d\. ḍ'
-    - 'xform n\. ṇ'
-    - 'xform x ś'
-    - 'xform s\. ṣ'
-    - 'xform h\. ḥ'
-    - 'xform m\. ṃ'
+    - 'xform aa ā'
+    - 'xform ii ī'
+    - 'xform uu ū'
+    - 'xform r\.\. ṝ'
+    - 'xform r\. ṛ'
+    - 'xform l\.\. ḹ'
+    - 'xform l\. ḷ'
+    - 'xform l; ḻ'
+    - 'xform o\. ŏ'
+    - 'xform oo ō'
+    - 'xform nj ñ'
+    - 'xform ng ṅ'
+    - 'xform t\. ṭ'
+    - 'xform d\. ḍ'
+    - 'xform n\. ṇ'
+    - 'xform x ś'
+    - 'xform s\. ṣ'
+    - 'xform h\. ḥ'
+    - 'xform m\. ṃ'
     # 清除连写时中间的空格
     - 'xform \s '
